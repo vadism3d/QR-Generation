@@ -2,7 +2,7 @@
 
 body{
     font-family: 'Roboto', sans-serif;
-    background: #D5E1EF;
+    background: hsl(212, 45%, 89%);
 }
 .qr {
     height: 100vh;
@@ -14,7 +14,7 @@ body{
 .qr_card {
     width: 320px;
     height: 497px;
-    background: #FFF;
+    background: hsl(0, 0%, 100%);
     padding: 16px 16px 40px;
     border-radius: 17px;
     display: flex;
@@ -45,7 +45,7 @@ body{
     width: 250px;
     text-align: center;
     font-weight: 400;
-    font-size: 16px;
+    font-size: 15px;
     color: #948A8A;
     letter-spacing: -0.015em;
 }
