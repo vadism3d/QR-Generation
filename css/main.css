@@ -5,11 +5,11 @@ body{
     background: #D5E1EF;
 }
 .qr {
+    height: 100vh;
     display: flex;
     flex-direction: column;
     justify-content: center;
     align-items: center;
-    margin-top: 4%;
 }
 .qr_card {
     width: 320px;
@@ -30,8 +30,6 @@ body{
     justify-content: center;
     align-items: center;
     border-radius: 17px; 
-}
-.qr_img {
 }
 .qr_title {
     text-align: center;
