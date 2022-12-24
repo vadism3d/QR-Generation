@@ -11,9 +11,10 @@ const el = (selector) => document.querySelector(selector);
             let text = el('#qrCodeText').value;
 
             // очищаем блок с QR-кодом
-            document.getElementsByClassName('qrCodeOutput').innerHTML = " ";
-            // qrCodeOutput.innerHTML = " ";
+            // document.getElementsByClassName('qrCodeOutput').innerHTML = " ";
+            qrCodeOutput.innerHTML = " ";
 
             // и помещаем в него сгенерированный библиотекой QR-код
             qrCodeOutput.append(QRCode.generateHTML(text, {}))
         });
+
